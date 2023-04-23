@@ -1,0 +1,17 @@
+num1 = input("Digite o primeiro número: ")
+num1 = float(num1)
+
+num2 = input("Digite o segundo número: ")
+num2 = float(num2)
+
+if num1 == num2: 
+    print(" Os dois sao iguais")
+elif num2 > num1:
+    print(str(num2) + " é o maior número")
+else:
+    print(str(num1) + " é o maior número")
+
+if num2 < num1:
+    print(str(num2) + " é o menor número")    
+elif num1 < num2:
+    print(str(num1) + " é o menor número")
